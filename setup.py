@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     
 setuptools.setup(
     name="EduSocialMediaDSHelper", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Josh King",
     author_email="joshkking@gmail.com",
     description="Helper for DS Social Media learning material",
