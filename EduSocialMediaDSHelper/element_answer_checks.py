@@ -5,18 +5,14 @@ import numpy as np
 
 
 
-# %%
-# Checks for Booleans and Functions notebook
-
-
-
 # First question check
-def elements_check_1(self, func):
+def elements_check_1(func):
     assert func('sky') == 3, 'Error on sky input'
     assert func('life') == 1, 'Error on life input'
     assert func('energy') == 1, 'Error on energy input'
     assert func('spirit') == 1, 'Error on spirit input'
     print('Correct, good job!')
+
 
 
 
@@ -39,6 +35,7 @@ def elements_check_2(func):
     assert func('spirit', 'energy') == 2, 'Error on spirit input' # Spirit against energy
     assert func('spirit', 'spirit') == 1, 'Error on spirit input'
     print('Correct, good job!')
+
 
 
 

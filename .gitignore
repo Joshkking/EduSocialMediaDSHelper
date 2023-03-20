@@ -126,7 +126,8 @@ fabric.properties
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -195,5 +196,14 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Things to ignore package setups
+dist/*
+build/*
+setup.py
+*.egg-info/*
+
+# Anything else
+*.csv
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,intellij+all,git,visualstudiocode

@@ -2,6 +2,7 @@
 # Likely imports for all functions below
 import numpy as np
 import matplotlib.pyplot as plt
+import time
 
 
 
@@ -160,3 +161,32 @@ class RobTheRobot():
         #         color = 'red'
             
         #     return color
+
+
+
+
+# %%
+# Timer for the function creation activity
+def time_me():
+    start_t = time.time()
+    while True:
+        time.sleep(1)
+        elapsed_seconds = round(time.time() - start_t)
+        print('\r' + 'Seconds elapsed: ' + str(elapsed_seconds), end='')
+        if elapsed_seconds >= 45:
+            print()
+            break
+
+
+
+
+# %%
+# Check answer function for the pandas sphinx riddle
+def riddle_of_the_sphinxes(answer):
+    if answer == 3678:
+        print('You grab the sphinx maked 640 and inspect it carefully. Upon flipping it over, you notice a secret compartment.')
+        print('Inside is a small note with lattitude and longitude coordinates. Congrats! You are about to be rich.')
+        print('\n')
+        print('You have solved the riddle! For bonus points, come up with your own riddle! But you must show the work to prove that it works!')
+    else:
+        print('Sorry, no treasure here!')
