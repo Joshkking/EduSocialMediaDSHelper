@@ -167,13 +167,13 @@ class RobTheRobot():
 
 # %%
 # Timer for the function creation activity
-def time_me():
+def time_me(n_seconds=45):
     start_t = time.time()
     while True:
         time.sleep(1)
         elapsed_seconds = round(time.time() - start_t)
         print('\r' + 'Seconds elapsed: ' + str(elapsed_seconds), end='')
-        if elapsed_seconds >= 45:
+        if elapsed_seconds >= n_seconds:
             print()
             break
 
