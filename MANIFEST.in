@@ -1,2 +1,2 @@
-include legos/sets.csv
-include legos/color_counts.csv
+include EduSocialMediaDSHelper/legos/sets.csv
+include EduSocialMediaDSHelper/legos/color_counts.csv
